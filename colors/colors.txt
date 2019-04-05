@@ -28,7 +28,7 @@ $primary-color: #D81B60;
 $accent-color: #9C27B0;
 
 /*red*/
-$primary-color: #E73A2E;
+$primary-color: #a01313;
 $accent-color: #FF8F00;
 
 /*brown*/
