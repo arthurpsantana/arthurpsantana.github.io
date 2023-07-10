@@ -167,10 +167,10 @@ html p, body p {
 html a, body a {
     color: #3e3e3e; }
 html a:hover, body a:hover {
-    color: #07c977;
+    color: #3e3e3e;
     text-decoration: none; }
 html a:focus, body a:focus {
-    color: #046c40;
+    color: #3e3e3e;
     text-decoration: none; }
 html h1, body h1 {
     font-weight: 700; }
