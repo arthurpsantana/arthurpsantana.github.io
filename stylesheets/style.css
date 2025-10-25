@@ -1696,3 +1696,9 @@ footer {
   margin-bottom: 9px; }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Remove title shadow everywhere */
+#v-card .info-headings h4,
+#v-card .info-headings h6 {
+    text-shadow: none !important;
+}
