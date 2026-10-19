@@ -106,6 +106,7 @@ img, svg { max-width: 100%; }
 .link-list a { display: inline-block; padding-block: .3rem; }
 .experience-entry { display: grid; grid-template-columns: 190px minmax(0,1fr); gap: 3rem; padding-block: 2.5rem; border-bottom: 1px solid var(--border); }
 .experience-date { color: var(--secondary); font-size: .87rem; }
+.experience-logo { display: block; width: 140px; height: 48px; margin-top: 1rem; object-fit: contain; object-position: left center; }
 .experience-entry h2 { font-size: 2rem; }
 .experience-entry li { margin-bottom: .65rem; }
 .experience-entry ul { padding-left: 1.3rem; }
