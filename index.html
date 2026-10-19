@@ -1,1256 +1,278 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="author" content="Trimatrix Lab">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-
-
-    <title>Arthur Santana, Ph.D.</title>
-
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="images/favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
-
-    <!-- GOOGLE FONT -->
-    <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
-
-
-    <!-- MATERIAL ICON FONT -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- FONT AWESOME -->
-    <link href="stylesheets/font-awesome.min.css" rel="stylesheet">
-
-
-    <!-- ANIMATION -->
-    <link href="stylesheets/animate.min.css" rel="stylesheet">
-
-
-    <!-- MATERIALIZE -->
-    <link href="stylesheets/materialize.css" rel="stylesheet">
-    <!-- BOOTSTRAP -->
-    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- CUSTOM STYLE -->
-    <link href="stylesheets/style_dark_gray.css" id="switch_style" rel="stylesheet">
-    <link href="stylesheets/custom.css" rel="stylesheet">
-
-</head>
-<body>
-
-
-<!--==========================================
-                  PRE-LOADER
-===========================================-->
-<div id="loading">
-    <div id="loading-center">
-        <div id="loading-center-absolute">
-            <div class="box-holder animated bounceInDown">
-                <span class="load-box"><span class="box-inner"></span></span>
-            </div>
-            <!-- NAME & STATUS -->
-            <div class="text-holder text-center">
-                <h2>ARTHUR SANTANA, Ph.D.</h2>
-                <h6>AI & NLP Specialist | LLM Evaluation & Quality | Conversational AI | Computational Linguistics</h6>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--==========================================
-                    HEADER
-===========================================-->
-<header id="home">
-    <nav id="theMenu" class="menu">
-
-        <!--MENU-->
-        <div id="menu-options" class="menu-wrap">
-
-            <!--PERSONAL LOGO-->
-            <div class="logo-flat">
-                <img alt="personal-logo" class="img-responsive" src="images/arthur.png">
-            </div>
-            <br>
-
-            <!--OPTIONS-->
-            <a href="#home"><i class="title-icon fa fa-user"></i>Home</a>
-            <a href="#about"><i class="title-icon fa fa-dashboard"></i>About</a>
-            <a href="#experience"><i class="title-icon fa fa-suitcase"></i>Work Experience</a>
-            <a href="#education"><i class="title-icon fa fa-graduation-cap"></i>Education</a>
-            <a href="#articles"><i class="title-icon fa fa-pencil"></i>Articles</a>
-            <a href="#conferences"><i class="title-icon fa fa-microphone"></i>Conferences</a>
-            <a href="#experience"><i class="title-icon fa fa-suitcase"></i>Projects</a>
-        </div>
-
-        <!-- MENU BUTTON -->
-        <div id="menuToggle">
-            <div class="toggle-normal">
-                <i class="material-icons top-bar">remove</i>
-                <i class="material-icons middle-bar">remove</i>
-                <i class="material-icons bottom-bar">remove</i>
-            </div>
-        </div>
-    </nav>
-
-    <div class="header-background section">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Computational Linguistics, NLP &amp; AI Evaluation — Arthur Santana</title>
+    <meta name="description" content="Arthur Santana, PhD — computational linguist working in NLP and LLM systems, AI evaluation and quality, prompt engineering, and research.">
+    <meta name="author" content="Arthur Santana">
+    <link rel="canonical" href="https://arthurpsantana.github.io/">
+    <meta property="og:title" content="Computational Linguistics, NLP &amp; AI Evaluation — Arthur Santana">
+    <meta property="og:description" content="Arthur Santana, PhD — computational linguist working in NLP and LLM systems, AI evaluation and quality, prompt engineering, and research.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://arthurpsantana.github.io/">
+    <meta name="theme-color" content="#F7F7F4">
+    <link rel="icon" href="/images/favicons/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700%7CMuli:400,600,700&amp;display=swap">
+    <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
+    <link rel="stylesheet" href="/stylesheets/materialize.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/style_dark_gray.css">
+    <link rel="stylesheet" href="/stylesheets/template-home.css?v=dcca2bcb83ab">
+    <script src="/javascript/portfolio.js" defer>
+    </script>
+  </head>
+  <body class="template-home">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header id="home">
+      <div class="header-background section">
         <div id="v-card-holder">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-
-                        <!-- V-CARD -->
-                        <div id="v-card" class="card">
-
-                            <!-- PROFILE PICTURE -->
-                            <div id="profile" class="right">
-                                <img alt="profile-image" class="img-responsive" src="images/arthur-profile6.jpg">
-                                <div class="slant"></div>
-                                <div class="btn-floating btn-large add-btn">
-                                    <i class="material-icons">add</i></div>
-                            </div>
-
-                            <div class="card-content">
-
-                                <!-- NAME & STATUS -->
-                                <div class="info-headings">
-                                    <h4 class="text-holder left">Arthur Santana, Ph.D.</h4>
-                                    <h6 class="left">Computational Linguist | NLP & LLM Systems | AI Evaluation & Quality | Prompt Engineering</h6>
-                                </div>
-
-                                <!-- CONTACT INFO -->
-                                <div class="infos">
-                                    <ul class="profile-list">
-                                        <li class="clearfix">
-                                            <span class="title"><i class="material-icons">email</i></span>
-                                            <span class="content">arthurpereirasantana@gmail.com</span>
-                                        </li>
-                                        <li class="clearfix">
-                                            <span class="title"><i class="material-icons">language</i></span>
-                                            <span class="content">https://arthurpsantana.github.io/</span>
-                                        </li>
-
-                                    </ul>
-                                </div>
-
-                                <!--LINKS-->
-                                <div class="links">
-                                     <!-- LINKEDIN-->
-                                    <a href="https://linkedin.com/in/arthursantana/"
-                                       class="social">
-                                       <img class="icons" src="images/linkedin.png">
-                                     </a>
-                                    <!-- LATTES-->
-                                    <a href="http://lattes.cnpq.br/4590901109808565" id="first_one"
-                                       class="social">
-                                       <img class="icons" src="images/lattes.png">
-                                     </a>
-                                    <!-- ACADEMIA-->
-                                    <a href="http://usp-br.academia.edu/ArthurSantana" class="social">
-                                      <img class="icons" src="images/academia.png">
-                                    </a>
-                                    <!-- RESEARCHGATE-->
-                                    <a href="https://www.researchgate.net/profile/Arthur_Santana3" class="social">
-                                      <img class="icons" src="images/researchgate.png">
-                                    </a>
-                                    <!-- Google-->
-                                    <a href="https://scholar.google.com/citations?user=0M0OKCoAAAAJ&hl" class="social">
-                                      <img class="icons" src="images/google.png">
-                                        </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="container">
+            <div id="v-card" class="card">
+              <div id="profile" class="right">
+                <img class="img-responsive" src="/images/arthur-profile6.jpg" alt="Arthur Santana" width="804" height="802" fetchpriority="high">
+                <div class="slant" aria-hidden="true">
                 </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<!--==========================================
-                   ABOUT
-===========================================-->
-<div id="about" class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <!-- DETAILS -->
-                <div id="about-card" class="card">
-                    <div class="card-content">
-                        <!-- ABOUT PARAGRAPH -->
-                        <p style="text-align: justify; font-size: 0.9em;">
-                            Hello! I am a computational linguist based in São Paulo, Brazil, with over eight years of experience building NLP and LLM systems, multilingual evaluation pipelines, semantic annotation frameworks, and AI quality processes for large-scale language technologies. I currently work as an AI Quality Assurance Specialist at Decagon (via Mercor) and as an Applied NLP Engineer at the Center for Curriculum Redesign, where I design multi-LLM evaluation pipelines and hallucination-detection systems for AI-generated content. I have a PhD in linguistics from the University of São Paulo, with most of my academic work focused on Phonology. My background also spans NLU/NLG grammar development, ASR and TTS speech technologies, prompt engineering, and language data analysis, built up across roles at Google Brazil and Cerence. For more information, please download my CV in PDF below.
-                        </p>
-                    </div>
-
-                    <!-- BUTTONS -->
-                    <div id="about-btn" class="card-action">
-                        <div class="about-btn">
-                            <!-- DOWNLOAD CV BUTTON -->
-                            <a href="arthuCV.pdf" target="_blank" class="btn waves-effect">Download CV</a>
-                        </div>
-                    </div>
+              </div>
+              <div class="card-content">
+                <div class="info-headings">
+                  <h1>Arthur Santana, PhD</h1>
+                  <p class="professional-subheading">AI &amp; NLP Specialist | LLM Evaluation &amp; Quality | Conversational AI | Computational Linguistics</p>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--==========================================
-                   WORK EXPERIENCE
-===========================================-->
-<section id="experience" class="section">
-    <div class="container">
-        <!-- SECTION TITLE -->
-        <div class="section-title">
-            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-suitcase"></i>Work Experience</h4>
-        </div>
-
-        <div id="timeline-education">
-
-            <!-- 1: AI QUALITY ASSURANCE SPECIALIST -->
-            <div class="timeline-block">
-                <div class="timeline-dot"><h6>D</h6></div>
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <h6 class="timeline-title">AI Quality Assurance Specialist</h6>
-                        <div class="timeline-info">
-                            <h6><small>Decagon (via Mercor)</small></h6>
-                            <h6><small>Nov/2025 - current</small></h6>
-                        </div>
-                        <p>
-                            As an AI Quality Assurance Specialist, I'm currently responsible for:
-                        </p>
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#expModal1">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
-                    </div>
+                <div class="infos">
+                  <ul class="profile-list">
+                    <li>
+                      <i class="fa fa-envelope" aria-hidden="true">
+                      </i>
+                      <a href="mailto:arthurpereirasantana@gmail.com">arthurpereirasantana@gmail.com</a>
+                    </li>
+                    <li>
+                      <i class="fa fa-map-marker" aria-hidden="true">
+                      </i>
+                      <span>São Paulo, Brazil</span>
+                    </li>
+                  </ul>
                 </div>
-            </div>
-
-            <!-- 2: APPLIED NLP ENGINEER -->
-            <div class="timeline-block">
-                <div class="timeline-dot"><h6>C</h6></div>
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <h6 class="timeline-title">Applied NLP Engineer</h6>
-                        <div class="timeline-info">
-                            <h6><small>Center for Curriculum Redesign</small></h6>
-                            <h6><small>Oct/2024 - current</small></h6>
-                        </div>
-                        <p>
-                            As an Applied NLP Engineer, I'm currently responsible for:
-                        </p>
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#expModal2">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
-                    </div>
+                <div class="links" aria-label="Professional and academic profiles">
+                  <a class="social" href="https://linkedin.com/in/arthursantana/" aria-label="LinkedIn">
+                    <img src="/images/linkedin.png" alt="" width="28" height="28">
+                  </a>
+                  <a class="social" href="http://lattes.cnpq.br/4590901109808565" aria-label="Lattes CV">
+                    <img src="/images/lattes.png" alt="" width="28" height="28">
+                  </a>
+                  <a class="social" href="http://usp-br.academia.edu/ArthurSantana" aria-label="Academia">
+                    <img src="/images/academia.png" alt="" width="28" height="28">
+                  </a>
+                  <a class="social" href="https://www.researchgate.net/profile/Arthur_Santana3" aria-label="ResearchGate">
+                    <img src="/images/researchgate.png" alt="" width="28" height="28">
+                  </a>
+                  <a class="social" href="https://scholar.google.com/citations?user=0M0OKCoAAAAJ&hl" aria-label="Google Scholar">
+                    <img src="/images/google.png" alt="" width="28" height="28">
+                  </a>
                 </div>
+              </div>
             </div>
-
-            <!-- 3: QUALITY CONTROLLER -->
-            <div class="timeline-block">
-                <div class="timeline-dot"><h6>Q</h6></div>
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <h6 class="timeline-title">Quality Controller</h6>
-                        <div class="timeline-info">
-                            <h6><small>Telus Digital</small></h6>
-                            <h6><small>Jun/2025 - Nov/2025</small></h6>
-                        </div>
-                        <p>
-                            As a Quality Controller, I was responsible for:
-                        </p>
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#expModal3">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
-                    </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="main-content" tabindex="-1">
+      <section id="about" class="section">
+        <div class="container">
+          <div id="about-card" class="card">
+            <div class="card-content">
+              <h2 class="sr-only">About</h2>
+              <p>I am a computational linguist based in São Paulo, Brazil. I combine computational linguistics, NLP engineering, and systematic AI evaluation to develop more reliable language technologies.</p>
+              <p>I have a PhD in Linguistics from the University of São Paulo, with research focused on Brazilian Portuguese phonology. My professional background spans NLU, NLG, ASR, and TTS development, language data, and AI quality assurance.</p>
+            </div>
+            <div class="card-action about-btn">
+              <a href="/arthuCV.pdf?v=fe2b93e1adfd" class="btn">Download CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="expertise" class="section">
+        <div class="container">
+          <div class="section-title">
+            <h2><i class="title-icon fa fa-cogs" aria-hidden="true"></i>Areas of Expertise</h2>
+          </div>
+          <div class="card">
+            <div class="card-content expertise-grid">
+              <article class="expertise-item">
+                <h3>AI &amp; NLP systems</h3>
+                <p>NLU, NLG, ASR, and TTS development, grammar and semantic annotation, structured prompts, and LLM evaluation workflows.</p>
+              </article>
+              <article class="expertise-item">
+                <h3>AI quality &amp; analysis</h3>
+                <p>Rubric-based evaluation, error analysis, annotation guidelines, and quality assurance for language data and model outputs.</p>
+              </article>
+              <article class="expertise-item">
+                <h3>Speech &amp; linguistics</h3>
+                <p>Brazilian Portuguese phonology, vowel systems, speech technologies, and linguistic analysis.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-title">
+            <h2>
+              <i class="title-icon fa fa-suitcase" aria-hidden="true">
+              </i>Professional Experience</h2>
+          </div>
+          <div id="timeline-experience">
+            <article class="timeline-block">
+              <div class="timeline-dot" aria-hidden="true">
+                <img class="organization-logo organization-logo-decagon" src="/images/organizations/decagon.png" alt="" width="36" height="36" loading="lazy">
+              </div>
+              <div class="card timeline-content">
+                <div class="card-content">
+                  <h3 class="timeline-title">AI Quality Assurance Specialist</h3>
+                  <p class="entry-meta">Nov/2025 – current · Decagon (via Mercor)</p>
+                  <p>Structured evaluation of AI outputs, recurring error analysis, and QA documentation.</p>
                 </div>
-            </div>
-
-            <!-- 4: SENIOR LINGUIST -->
-            <div class="timeline-block">
-                <div class="timeline-dot"><h6>S</h6></div>
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <h6 class="timeline-title">Senior Linguist</h6>
-                        <div class="timeline-info">
-                            <h6><small>Google Brazil (via Telus Digital)</small></h6>
-                            <h6><small>Oct/2023 - Jun/2025</small></h6>
-                        </div>
-                        <p>
-                            As a Senior Linguist, I was responsible for:
-                        </p>
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#expModal4">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
-                    </div>
+              </div>
+            </article>
+            <article class="timeline-block">
+              <div class="timeline-dot" aria-hidden="true">
+                <img class="organization-logo organization-logo-ccr" src="/images/organizations/ccr.png" alt="" width="36" height="36" loading="lazy">
+              </div>
+              <div class="card timeline-content">
+                <div class="card-content">
+                  <h3 class="timeline-title">NLP Researcher</h3>
+                  <p class="entry-meta">Oct/2024 – current · Center for Curriculum Redesign</p>
+                  <p>Applied research and prototyping of multi-LLM evaluation and synthesis pipelines, with a focus on factual grounding, hallucination detection, and output consistency.</p>
                 </div>
-            </div>
-
-            <!-- 5: NLU LANGUAGE DEVELOPER -->
-            <div class="timeline-block">
-                <div class="timeline-dot"><h6>N</h6></div>
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <h6 class="timeline-title">NLU Language Developer</h6>
-                        <div class="timeline-info">
-                            <h6><small>Cerence (via Maize)</small></h6>
-                            <h6><small>Jun/2022 - Aug/2024</small></h6>
-                        </div>
-                        <p>
-                            As an NLU Language Developer, I was responsible for:
-                        </p>
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#expModal5">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
-                    </div>
+              </div>
+            </article>
+            <article class="timeline-block">
+              <div class="timeline-dot" aria-hidden="true">
+                <img class="organization-logo organization-logo-google" src="/images/organizations/google.png" alt="" width="36" height="36" loading="lazy">
+              </div>
+              <div class="card timeline-content">
+                <div class="card-content">
+                  <h3 class="timeline-title">Associate Linguist → Senior Linguist</h3>
+                  <p class="entry-meta">2018–2025 · Google Brazil (via Telus Digital)</p>
+                  <p>NLU and NLG development, linguistic annotation, evaluation, and Brazilian Portuguese language resources.</p>
                 </div>
-            </div>
-
-            <!-- 6: ASSOCIATE LINGUIST -->
-            <div class="timeline-block">
-                <div class="timeline-dot"><h6>A</h6></div>
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <h6 class="timeline-title">Associate Linguist</h6>
-                        <div class="timeline-info">
-                            <h6><small>Google Brazil (via Telus Digital)</small></h6>
-                            <h6><small>Sep/2018 - Sep/2023</small></h6>
-                        </div>
-                        <p>
-                            As an Associate Linguist, I was responsible for:
-                        </p>
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#expModal6">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 7: COMPUTATIONAL LINGUIST -->
-            <div class="timeline-block">
-                <div class="timeline-dot"><h6>P</h6></div>
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <h6 class="timeline-title">Computational Linguist</h6>
-                        <div class="timeline-info">
-                            <h6><small>Portuguese International Institute</small></h6>
-                            <h6><small>Jan/2022 - Jul/2022</small></h6>
-                        </div>
-                        <p>
-                            Part of my responsibilities as a Computational Linguist:
-                        </p>
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#expModal7">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 8: TEACHER'S ASSISTANT -->
-            <div class="timeline-block">
-                <div class="timeline-dot"><h6>T</h6></div>
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <h6 class="timeline-title">Teacher's Assistant</h6>
-                        <div class="timeline-info">
-                            <h6><small>University of São Paulo</small></h6>
-                            <h6><small>2015 - 2019</small></h6>
-                        </div>
-                        <p>
-                            As a teacher's assistant, I:
-                        </p>
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#expModal8">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 9: ENGLISH TEACHER (ENGLISH FOR BUSINESS) -->
-            <div class="timeline-block">
-                <div class="timeline-dot"><h6>E</h6></div>
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <h6 class="timeline-title">English Teacher</h6>
-                        <div class="timeline-info">
-                            <h6><small>English for Business, São Paulo</small></h6>
-                            <h6><small>2013 - 2017</small></h6>
-                        </div>
-                        <p>
-                            As an English teacher, I:
-                        </p>
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#expModal9">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 10: ENGLISH TEACHER (CULTURA INGLESA) -->
-            <div class="timeline-block">
-                <div class="timeline-dot"><h6>E</h6></div>
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <h6 class="timeline-title">English Teacher</h6>
-                        <div class="timeline-info">
-                            <h6><small>Cultura Inglesa, São Luís</small></h6>
-                            <h6><small>2011 - 2013</small></h6>
-                        </div>
-                        <p>
-                            As an English teacher, I:
-                        </p>
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#expModal10">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-<!--==========================================
-                  MODALS
-===========================================-->
-
-<!--MODAL 1: AI QUALITY ASSURANCE SPECIALIST-->
-<div class="modal fade" id="expModal1" tabindex="-1" role="dialog" aria-labelledby="expModalLabel1">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header  text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="expModalLabel1">AI Quality Assurance Specialist</h4>
-                <h6><small>Decagon (via Mercor)</small></h6>
-                <h6><small>Nov/2025 - current</small></h6>
-            </div>
-            <div class="modal-body">
-                <p>
-                  As an AI Quality Assurance Specialist, I'm currently responsible for:
-                    <ul style="list-style-type:disc;">
-                        <li>- Conduct quality assurance evaluations of linguistic data and AI model outputs, ensuring compliance with project guidelines;</li>
-                        <li>- Evaluate AI agent performance using structured rubrics and predefined quality standards across conversational and NLP tasks;</li>
-                        <li>- Identify recurring error patterns, providing actionable, structured feedback to improve model performance;</li>
-                        <li>- Collaborate with cross-functional stakeholders to clarify requirements, resolve ambiguities, and refine QA and evaluation procedures;</li>
-                        <li>- Maintain detailed documentation of evaluation criteria, decisions, and edge cases to support auditability and consistency.</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--MODAL 2: APPLIED NLP ENGINEER-->
-<div class="modal fade" id="expModal2" tabindex="-1" role="dialog" aria-labelledby="expModalLabel2">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header  text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="expModalLabel2">Applied NLP Engineer</h4>
-                <h6><small>Center for Curriculum Redesign</small></h6>
-                <h6><small>Oct/2024 - current</small></h6>
-            </div>
-            <div class="modal-body">
-                <p>
-                  As an Applied NLP Engineer, I'm currently responsible for:
-                    <ul style="list-style-type:disc;">
-                        <li>- Design and deploy multi-LLM evaluation pipelines to improve reliability, factual accuracy, and consistency of AI-generated educational content;</li>
-                        <li>- Deploy structured prompt workflows and evaluation pipelines that coordinate multiple LLMs to validate, refine, and improve AI-generated outputs through iterative consensus and rubric-based assessment;</li>
-                        <li>- Expand hierarchical competency models and label structures used for automated evaluation, enabling scalable and auditable assessment pipelines;</li>
-                        <li>- Build automated workflows for multi-model comparison, including sequential refinement and consensus-based architectures for robust output validation;</li>
-                        <li>- Develop evaluation frameworks using hierarchical competency taxonomies and adaptable scoring rubrics for AI-generated educational content;</li>
-                        <li>- Implement hallucination detection and correction systems, leveraging structured taxonomies and evaluator-based validation strategies;</li>
-                        <li>- Engineer prompting strategies and structured outputs (JSON) to ensure deterministic, auditable, and scalable model behavior across tasks;</li>
-                        <li>- Adapt prompt templates, evaluation criteria, and structured label systems to ensure consistent behavior across different LLMs and multilingual educational datasets;</li>
-                        <li>- Integrate pipelines with GitHub Actions and external data systems (e.g., Airtable), enabling automated runs, experiment tracking, and longitudinal benchmarking.</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--MODAL 3: QUALITY CONTROLLER-->
-<div class="modal fade" id="expModal3" tabindex="-1" role="dialog" aria-labelledby="expModalLabel3">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header  text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="expModalLabel3">Quality Controller</h4>
-                <h6><small>Telus Digital</small></h6>
-                <h6><small>Jun/2025 - Nov/2025</small></h6>
-            </div>
-            <div class="modal-body">
-                <p>
-                  As a Quality Controller, I was responsible for:
-                    <ul style="list-style-type:disc;">
-                        <li>- Lead quality assurance for language data projects, ensuring accuracy, consistency, and alignment with client specifications;</li>
-                        <li>- Collaborate with project managers and subject matter experts to refine task guidelines, documentation and resolve quality issues;</li>
-                        <li>- Conduct audits and performance reviews of annotators and reviewers;</li>
-                        <li>- Analyze error patterns and generate insights to improve data quality and team efficiency;</li>
-                        <li>- Support the onboarding and training of new team members, ensuring alignment with quality standards;</li>
-                        <li>- Create, update, and edit annotation and QA guidelines to reflect evolving project needs and improve clarity for annotators;</li>
-                        <li>- Use quality tracking tools and dashboards to report on KPIs, monitor SLA compliance, and drive continuous improvement.</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--MODAL 4: SENIOR LINGUIST-->
-<div class="modal fade" id="expModal4" tabindex="-1" role="dialog" aria-labelledby="expModalLabel4">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header  text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="expModalLabel4">Senior Linguist</h4>
-                <h6><small>Google Brazil (via Telus Digital)</small></h6>
-                <h6><small>Oct/2023 - Jun/2025</small></h6>
-            </div>
-            <div class="modal-body">
-                <p>
-                  As a Senior Linguist, I was responsible for:
-                    <ul style="list-style-type:disc;">
-                        <li>- Support the Project Manager on management tasks;</li>
-                        <li>- Perform review of work authored by Linguists;</li>
-                        <li>- Elaborate and conduct training activities of Linguists and new-hires;</li>
-                        <li>- Localize prompts, response templates, evaluation instructions, and linguistic resources for Brazilian Portuguese, ensuring linguistic accuracy, cultural appropriateness, and consistency with global AI quality standards;</li>
-                        <li>- Develop complex grammars for Natural Language Understanding;</li>
-                        <li>- Create complex templates for Natural Language Generation;</li>
-                        <li>- Evaluate current system outputs;</li>
-                        <li>- Annotate and review linguistic data;</li>
-                        <li>- Follow and fulfill project KPIs.</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--MODAL 5: NLU LANGUAGE DEVELOPER-->
-<div class="modal fade" id="expModal5" tabindex="-1" role="dialog" aria-labelledby="expModalLabel5">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header  text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="expModalLabel5">NLU Language Developer</h4>
-                <h6><small>Cerence (via Maize)</small></h6>
-                <h6><small>Jun/2022 - Aug/2024</small></h6>
-            </div>
-            <div class="modal-body">
-                <p>
-                  As an NLU Language Developer, I was responsible for:
-                    <ul style="list-style-type:disc;">
-                        <li>- Developed NLP components: write rules, build grammars/FSTs;</li>
-                        <li>- Expanded annotation schemas and semantic label structures to support new conversational AI capabilities while maintaining compatibility with existing language resources;</li>
-                        <li>- Used modeling tools to bootstrap and test new functionalities;</li>
-                        <li>- Designed Portuguese-specific linguistic mappings and expanded semantic label structures to improve NLU coverage and speech technology performance;</li>
-                        <li>- Created annotation systems and mappings for Portuguese;</li>
-                        <li>- Analyzed system performance and identified areas for improvement;</li>
-                        <li>- Collaborated with other Engineers and annotators in data collection and development efforts;</li>
-                        <li>- Developed specific guidelines for Brazilian Portuguese phonetic/phonemic transcription;</li>
-                        <li>- Supported script design used to train speech synthesis models;</li>
-                        <li>- Worked on localization (en-ptBR-en).</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--MODAL 6: ASSOCIATE LINGUIST-->
-<div class="modal fade" id="expModal6" tabindex="-1" role="dialog" aria-labelledby="expModalLabel6">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header  text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="expModalLabel6">Associate Linguist</h4>
-                <h6><small>Google Brazil (via Telus Digital)</small></h6>
-                <h6><small>Sep/2018 - Sep/2023</small></h6>
-            </div>
-            <div class="modal-body">
-                <p>
-                  As an Associate Linguist, I was responsible for:
-                    <ul style="list-style-type:disc;">
-                        <li>- NLU Grammar development;</li>
-                        <li>- NLG development;</li>
-                        <li>- Developed annotation guidelines, semantic label definitions, and taxonomy documentation to support scalable NLP data creation and model training;</li>
-                        <li>- Annotate and review linguistic data;</li>
-                        <li>- Provide linguistic analysis and support for NLU and NLG projects;</li>
-                        <li>- Response modeling;</li>
-                        <li>- Structured linguistic annotations using standardized semantic labels for disambiguation, normalization, and language understanding tasks;</li>
-                        <li>- Annotating lexicon entries according to guidelines;</li>
-                        <li>- Deriving NLP data.</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--MODAL 7: COMPUTATIONAL LINGUIST-->
-<div class="modal fade" id="expModal7" tabindex="-1" role="dialog" aria-labelledby="expModalLabel7">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header  text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="expModalLabel7">Computational Linguist</h4>
-                <h6><small>Portuguese International Institute</small></h6>
-                <h6><small>Jan/2022 - Jul/2022</small></h6>
-            </div>
-            <div class="modal-body">
-                <p>
-                  Part of my responsibilities as a Computational Linguist:
-                    <ul style="list-style-type:disc;">
-                        <li>- Supported the expansion and organization of scientific terminology taxonomies for Portuguese language resources;</li>
-                        <li>- Data cleaning and wrangling;</li>
-                        <li>- Flexional paradigm script design.</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--MODAL 8: TEACHER'S ASSISTANT-->
-<div class="modal fade" id="expModal8" tabindex="-1" role="dialog" aria-labelledby="expModalLabel8">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header  text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="expModalLabel8">Teacher's Assistant</h4>
-                <h6><small>University of São Paulo</small></h6>
-                <h6><small>2015 - 2019</small></h6>
-            </div>
-            <div class="modal-body">
-                <p>
-                  As a teacher's assistant, I:
-                  <ul style="list-style-type:disc;">
-                    <li>- Supported Professors during lectures;</li>
-                    <li>- Held office hours;</li>
-                    <li>- Elaborated and corrected students' assignments.</li>
-                </ul>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--MODAL 9: ENGLISH TEACHER (ENGLISH FOR BUSINESS)-->
-<div class="modal fade" id="expModal9" tabindex="-1" role="dialog" aria-labelledby="expModalLabel9">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header  text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="expModalLabel9">English Teacher</h4>
-                <h6><small>English for Business, São Paulo</small></h6>
-                <h6><small>2013 - 2017</small></h6>
-            </div>
-            <div class="modal-body">
-                <p>
-                  As an English teacher, I taught Business English courses to professionals in São Paulo.
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--MODAL 10: ENGLISH TEACHER (CULTURA INGLESA)-->
-<div class="modal fade" id="expModal10" tabindex="-1" role="dialog" aria-labelledby="expModalLabel10">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header  text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="expModalLabel10">English Teacher</h4>
-                <h6><small>Cultura Inglesa, São Luís</small></h6>
-                <h6><small>2011 - 2013</small></h6>
-            </div>
-            <div class="modal-body">
-                <p>
-                  As an English teacher, I taught English language courses in São Luís, Brazil.
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--SCROLL TO TOP-->
-<div id="scroll-top">
-    <div id="scrollup"><i class="fa fa-angle-up"></i></div>
-</div>
-
-<!--==========================================
-                   EDUCATION
-===========================================-->
-<section id="education" class="section">
-    <div class="container">
-        <!-- SECTION TITLE -->
-        <div class="section-title">
-            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-graduation-cap"></i>Education</h4>
-        </div>
-
-        <div id="timeline-education">
-
-            <!-- FIRST TIMELINE -->
-            <div class="timeline-block">
-                <!-- DOT -->
-                <div class="timeline-dot"><h6>P</h6></div>
-                <!-- TIMELINE CONTENT -->
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">PhD in Linguistics</h6>
-                        <!-- TIMELINE TITLE INFO -->
-                        <div class="timeline-info">
-                            <h6>
-                                <small>University of São Paulo</small>
-                            </h6>
-                            <h6>
-                                <small>2015 - 2019</small>
-                            </h6>
-                        </div>
-                        <!-- TIMELINE PARAGRAPH -->
-                        <p>
-                          <b>Advisor:</b> Raquel Santos <br/>
-                          <b>Project:</b> Unstressed vowel neutralization in Brazilian Portuguese
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- SECOND TIMELINE -->
-            <div class="timeline-block">
-                <!-- DOT -->
-                <div class="timeline-dot"><i class="fa fa-globe"></i></div>
-                <!-- TIMELINE CONTENT -->
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">Visiting Exchange Scholar </h6>
-                        <!-- TIMELINE TITLE INFO -->
-                        <div class="timeline-info">
-                            <h6>
-                                <small>University of Southern California</small>
-                            </h6>
-                            <h6>
-                                <small>Jul 2017 - Jun 2018</small>
-                            </h6>
-                        </div>
-                        <!-- TIMELINE PARAGRAPH -->
-                        <p>
-                          <b>Supervisor:</b> Rachel Walker <br/>
-                          <b>Grant:</b> International Visiting Scholar Grant - Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- THIRD TIMELINE -->
-            <div class="timeline-block">
-                <!-- DOT -->
-                <div class="timeline-dot"><h6>M</h6></div>
-                <!-- TIMELINE CONTENT -->
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">M.A. in Linguistics</h6>
-                        <!-- TIMELINE TITLE INFO -->
-                        <div class="timeline-info">
-                            <h6>
-                                <small>University of São Paulo</small>
-                            </h6>
-                            <h6>
-                                <small>2013 - 2015</small>
-                            </h6>
-                        </div>
-                        <!-- TIMELINE PARAGRAPH -->
-                        <p>
-                          <b>Advisor:</b> Raquel Santos <br/>
-                          <b>Project:</b> Postonic mid-vowel alternation in Brazilian Portuguese
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- FOURTH TIMELINE -->
-            <div class="timeline-block">
-                <!-- DOT -->
-                <div class="timeline-dot"><i class="fa fa-graduation-cap"></i></div>
-                <!-- TIMELINE CONTENT -->
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">B.A. in Letters</h6>
-                        <!-- TIMELINE TITLE INFO -->
-                        <div class="timeline-info">
-                            <h6>
-                                <small>Federal University of Maranhão</small>
-                            </h6>
-                            <h6>
-                                <small>2008 - 2013</small>
-                            </h6>
-                        </div>
-                        <!-- TIMELINE PARAGRAPH -->
-                        <p>
-                          <br/>
-                        <!-- TEXT ABOUT GRADUATION -->
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-<!--==========================================
-                PUBLICATIONS
-===========================================-->
-
-<section id="articles" class="section">
-    <div class="container">
-        <!-- SECTION TITLE -->
-        <div class="section-title">
-            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-pencil"></i>Journal articles, book chapters, and conference proceedings</h4>
-        </div>
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="card">
-                    <div id="margin">
-                      <!-- ARTICLES CONTENT -->
-                        <div class="color-border">
-                        <h6>2018</h6>
-                            <p>SANTANA, Arthur. <b><i>The status of unstressed lax-mid vowels in northern dialect of Brazilian Portuguese</i></b>. Revista Linguíʃtica. <a href="https://revistas.ufrj.br/index.php/rl/article/view/17526">[link]</a></p>
-                            <p>SANTANA, Arthur. <b><i>The role of phonological processes in defining the vowel inventory of Brazilian Portuguese</i></b>. Acta Linguistica Academica, v. 6, p. 69-86, 2018. <a href="https://akademiai.com/doi/pdf/10.1556/2062.2018.65.1.4">[link]</a></p>
-                      </div>
-
-                      <div class="color-border">
-                        <h6>2016</h6>
-                        <p>SANTANA, Arthur. <b><i>Uma abordagem fonológica para as postônicas não-finais</i></b>. Domínios de LinguaGem, v. 10, p. 494-518, 2016. <a href="http://www.seer.ufu.br/index.php/dominiosdelinguagem/article/view/32021">[link]</a></p>
-                      </div>
-
-                      <div class="color-border">
-                        <h6>2014</h6>
-                        <p>BEZERRA, José de Ribamar Mendes ; SANTANA, Arthur. <b><i>A redução de proparoxítonas no falar maranhense</i></b>. In: RAZKY, Abdelhak, LIMA, A. F. de, OLIVEIRA, M. B. de, COSTA, E. O. da. (Org.). Estudos sociodialetais do português brasileiro. 1ed.São Paulo: Pontes, 2014, v. 1, p. 31-47.</p>
-                      </div>
-
-                      <div class="color-border">
-                        <h6>2013</h6>
-                        <p>SANTANA, Arthur; BEZERRA, José de Ribamar Mendes . <b><i>Proparoxítonos e estratégias de redução com base no corpus do ALiMA</i></b>. Cadernos de Pesquisa, v. 20, p. 79-88, 2013.</p>
-                        <p>SANTANA, Arthur. <b><i>A permanência da tônica em variantes proparoxítonas no falar maranhense</i></b>. In: RAMOS, Conceição et al. (Orgs.). O português falado no Maranhão: múltiplos olhares. São Luís: EDUFMA, 2013.</p>
-                      </div>
-
-                      <div class="color-border">
-                        <h6>2012</h6>
-                        <p>SANTANA, Arthur. <b><i>A síncope revisitada: análise com base no corpus do ALiMA</i></b>. Littera Online, v. 5, p. 50-68, 2012. </p>
-                        <p>SANTANA, Arthur.<b><i>O apagamento das postônicas não-finais no falar maranhense</i></b>. In: IV Seminário Internacional de fonologia, 2012, Porto Alegre. Anais do IV Seminário Internacional de fonologia. Porto Alegre: Editora da UFRGS, 2012. </p>
-                        <p>SANTANA, Arthur; BEZERRA, José de Ribamar Mendes .<b><i> A neutralização das postônicas não finais no falar maranhense: uma análise preliminar</i></b>. In: II Congresso Internacional de Dialetologia e Sociolinguística, 2012, Belém. Diversidade linguística e política de ensino: anais. São Luís: EDUFMA, 2012. p. 2335-2343. </p>
-                      </div>
-
-                      <div class="color-border">
-                        <h6>2011</h6>
-                        <p>SANTANA, Arthur. <b><i>O livro didático do português: uma análise da oralidade</i></b>. Littera.</p>
-                        <p>SANTANA, Arthur. <b><i>Variação de proparoxítonas: traços da identidade popular no falar maranhense</i></b>. III Seminário Linguagem e identidades: múltiplos olhares, 2011.</p>
-                      </div>
-
-                      <div class="color-border">
-                        <h6>2010</h6>
-                        <p>SANTANA, Arthur. <b><i>'Risca o fósqui que a lâmpida apagô': um estudo geosociolinguístico das proparoxítonas no falar maranhense</i></b>. I Congresso Internacional de Dialetologia e Sociolinguística, 2010.</p>
-                        <p>SANTANA, Arthur. <b><i>Apócope em proparoxítonos: um estudo preliminar</i></b>. I Congresso Internacional de Dialetologia e Sociolinguística, 2010.</p>
-                      </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!--==========================================
-          CONFERENCE PRESENTATIONS
-===========================================-->
-
-<section id="conferences" class="section">
-    <div class="container">
-        <!-- SECTION TITLE -->
-        <div class="section-title">
-            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-microphone"></i>Conference Presentations</h4>
-        </div>
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="card">
-                    <div id="margin">
-                      <!-- ARTICLES CONTENT -->
-                        <div class="color-border">
-                        <h6>2018</h6>
-                        <p><b><i>Is there reduction via laxing in northern dialects of Brazilian Portuguese?</i></b> Generative Linguistics in the Old World - GLOW 41 (Budapest, Hungary. April, 2018) [<a href="docs/poster-glow.pdf">poster</a>] </p>
-                        <p><b><i>Syncope and the canonical foot in Brazilian Portuguese.</i></b> 7th Hispanic and Luso-Brazilian Linguistics Conference (Tempe, Arizona. March, 2018)</p>
-                        <p><b><i>The status of unstressed lax-mid vowels in northern dialect of Brazilian Portuguese.</i></b> Experimental Portuguese Linguistic (Toronto, Canada. April, 2018) [<a href="docs/exportli2018.pdf">slides</a>] [<a href="https://exportli.files.wordpress.com/2018/04/the-status-of-unstressed-lax-vowels-in-northern-dialect-of-brazilian-portuguese.pdf">abstract</a>]</p>
-                      </div>
-
-                      <div class="color-border">
-                        <h6>2016</h6>
-                        <p><b><i>The role of phonological processes in the vowel inventory of Brazilian Portuguese.</i></b> Old World Conference in Phonology (OCP 13, 2016) [<a href="http://seas3.elte.hu/ocp13/abstracts/38_Santana_OCP13_submission_33.pdf">abstract</a>][<a href="https://www.academia.edu/32456615/The_role_of_phonological_processes_to_discussing_vowel_inventories_in_Brazilian_Portuguese">poster</a>]</p>
-                      </div>
-
-                      <div class="color-border">
-                        <h6>2015</h6>
-                        <p><b><i>Neutralization of non-final postonic mid vowels in Brazilian Portuguese: assimilation or feature deletion?</i></b> Phonetics and Phonology in Europe (PAPE 2015) [<a href="http://www.ling.cam.ac.uk/pape/PAPE%20ABSTRACTS/PAPE15-072.pdf">abstract</a>][<a href="https://www.academia.edu/32456616/Neutralization_of_non-final_post-tonic_mid-vowels_in_Brazilian_Portuguese_assimilation_or_feature_deletion">poster</a>]</p>
-                        <p><b><i>Uma abordagem fonológica para as postônicas não-finais.</i></b> II Encontro intermediário do GT de Fonética e Fonologia da ANPOLL. [<a href="http://encontrogtfoneticaefonologia.blogspot.com/p/programacao.html">programação</a>]</p>
-                        <p><b><i>Vogais medias em dialetos nordestinos: as postônicas não-finais em São Luís.</i></b> 63 Seminário do GEL [<a href="http://www.gel.org.br/ProgramacaoFinal2015.php#tab2">resumo</a>]</p>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<!--==========================================
-                   PROJECTS
-===========================================-->
-<section id="experience" class="section">
-    <div class="container">
-        <!-- SECTION TITLE -->
-        <div class="section-title">
-            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-suitcase"></i>Projects</h4>
-        </div>
-
-        <div id="timeline-education">
-
-            <!-- FIRST TIMELINE -->
-            <div class="timeline-block">
-                <!-- DOT -->
-                <div class="timeline-dot"><h6>R</h6></div>
-                <!-- TIMELINE CONTENT -->
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">Reduction via laxing in northern dialect of Brazilian Portuguese</h6>
-                        <!-- TIMELINE TITLE INFO -->
-                        <div class="timeline-info">
-                            <h6>
-                                <small>2015 - 2019</small>
-                            </h6>
-                        </div>
-                        <!-- TIMELINE PARAGRAPH -->
-                        <p>
-                            Brazilian Portuguese (BP) has an inventory of seven vowels in stressed syllable /a, ɛ, e, i, ɔ, o, u/.
-                            The contrast between lax /ɛ, ɔ/ and tense vowels /e, o/ is lost in unstressed contexts.
-                        </p>
-                        <!-- BUTTON TRIGGER MODAL -->
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#projModal1">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- SECOND TIMELINE -->
-            <div class="timeline-block">
-                <!-- DOT -->
-                <div class="timeline-dot"><h6>E</h6></div>
-                <!-- TIMELINE CONTENT -->
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">External Sandhi in Brazilian Portuguese</h6>
-                        <!-- TIMELINE TITLE INFO -->
-                        <div class="timeline-info">
-                            <h6>
-                                <small>(with Raquel Santos)</small>
-                            </h6>
-                            <h6>
-                                <small>2017 - Ongoing</small>
-                            </h6>
-                        </div>
-                        <!-- TIMELINE PARAGRAPH -->
-                        <p>
-                            Previous studies of external sandhi in Brazilian Portuguese have proposed the existence of three categorical process targeting adjacent vowels in word boundaries
-                        </p>
-                        <!-- BUTTON TRIGGER MODAL -->
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#projModal2">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- THIRD TIMELINE -->
-            <div class="timeline-block">
-                <!-- DOT -->
-                <div class="timeline-dot"><h6>P</h6></div>
-                <!-- TIMELINE CONTENT -->
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">Postonic mid-vowel alternation in Brazilian Portuguese</h6>
-                        <!-- TIMELINE TITLE INFO -->
-                        <div class="timeline-info">
-                            <h6>
-                                <small>2013 - 2015</small>
-                            </h6>
-                        </div>
-                        <!-- TIMELINE PARAGRAPH -->
-                        <p>
-                            Brazilian Portuguese has a seven-vowel system in stressed position /a, ɛ, e, i, ɔ, o, u/, which is neutralized in unstressed syllables.
-                        </p>
-                        <!-- BUTTON TRIGGER MODAL -->
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#projModal3">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- FOURTH TIMELINE -->
-            <div class="timeline-block">
-                <!-- DOT -->
-                <div class="timeline-dot"><h6>S</h6></div>
-                <!-- TIMELINE CONTENT -->
-                <div class="card timeline-content">
-                    <div class="card-content">
-                        <!-- TIMELINE TITLE -->
-                        <h6 class="timeline-title">Syncope in Brazilian Portuguese</h6>
-                        <!-- TIMELINE TITLE INFO -->
-                        <div class="timeline-info">
-                            <h6>
-                                <small>2010 - 2013</small>
-                            </h6>
-                        </div>
-                        <!-- TIMELINE PARAGRAPH -->
-                        <p>
-                            Syncope in BP can be defined as a variable process that deletes the vowel in non-final postonic syllables (eg. [ˈah.vo.ɾɪ] ~ [ˈah.vɾɪ] ‘tree’).
-                        </p>
-                        <!-- BUTTON TRIGGER MODAL -->
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#projModal4">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-<!--==========================================
-                  MODALS
-===========================================-->
-
-<!--MODAL ONE-->
-<div class="modal fade" id="projModal1" tabindex="-1" role="dialog" aria-labelledby="projModalLabel1">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <!--MODAL HEADER-->
-            <div class="modal-header  text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="projModalLabel1">Reduction via laxing in northern dialect of Brazilian Portuguese</h4>
-                <h6>
-                    <small>2015 - 2019</small>
-                </h6>
-            </div>
-            <!--MODAL BODY-->
-            <div class="modal-body">
-                <p>
-                  Brazilian Portuguese (BP) has an inventory of seven vowels in stressed syllable /a, ɛ, e, i, ɔ, o, u/. The contrast between lax /ɛ, ɔ/ and tense vowels /e, o/ is lost in unstressed contexts. In southern dialect, reduction favors tense vowels [e, o] (eg. p[ɛ]le ‘skin’; p[e]lada ‘naked’, (underline indicates stress)), and lax vowels are, in general, blocked outside the stressed syllable. However, this is not the case for northern dialects, where lax vowels [ɛ, ɔ] are licensed in pretonic (eg. p[ɛ]lada ‘naked’) and non-final postonic syllables (eg. vesp[ɛ]r[a] ‘eve’), but also alternate with tense (eg. b[e]leza ‘beauty’; corr[e]go ‘stream’) and high vowels (eg. [i]ntrega ‘delivery’; tip[i]co ‘typical’).
-  As noted by Crosswhite (2004), reduction via tensing fits in much better with the theoretical approaches to vowel reduction. In this dissertation, I argue that reduction via laxing in northern dialects of Brazilian Portuguese result from a interaction of two types of neutralization - contrast enhancement and prominence alignment. Throught contraints ranking, it is shown how this pattern is derived while also capturing the standard case of reduction via tensing in southern dialects.
-                </p>
-                 <p>See my PhD dissertation (in Portuguese) <a href="http://www.teses.usp.br/teses/disponiveis/8/8139/tde-04062019-130102/publico/2019_ArthurPereiraSantana_VCorr.pdf">here</a></p>
-                <p><b>Grant:</b> Conselho Nacional de Desenvolvimento Científico e Tecnológico. Process n. 140139/2015-0</p>
-            </div>
-            <!--MODAL FOOTER-->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--MODAL TWO-->
-<div class="modal fade" id="projModal2" tabindex="-1" role="dialog" aria-labelledby="projModalLabel2">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <!--MODAL HEADER-->
-            <div class="modal-header  text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="projModalLabel2">External Sandhi in Brazilian Portuguese</h4>
-                <h6>
-                    <small>(with Raquel Santos)</small>
-                </h6>
-                <h6>
-                    <small>2017 - Ongoing</small>
-                </h6>
-            </div>
-            <!--MODAL BODY-->
-            <div class="modal-body">
-                <p>
-                  Previous studies of external sandhi in Brazilian Portuguese have proposed the existence of three categorical process targeting adjacent vowels in word boundaries: elision (car[a] [i]doso ~ car[i]doso ‘old guy’); dipthongation (car[aj]doso) and degemination (caz[a] [a]marela ~ caz[a]marela ‘yellow house’)/ The general picture of what has been claimed is: (i) external sandhi in BP is blocked when there is an intonational prominence in the context; (ii) dipthongation only occurs if at least one of the vowels is high; (iii) in a V1+V2 context, elision occurs only if V1 is [back]; (iv) it is only possible for elision to occur with a front vowel if the vowel is in V1 position and preceded by a coronal fricative (rceb[i] [a]mor ~ *receb[a]mor ‘recieves love’; conhe[si] [a]lguém ~ conhe[sa]lguém ‘knows someone’).
-
-This project is analyzing the patterns in a V1+V2+V3 sequence (eg. conhec[i] [a] [i]greja ‘knows the church’) in different dialects of Brazilian Portuguese. I am also investigating if the unexpected patterns attested by our data are better explained through an articulatory phonology perspective.
-                </p>
-            </div>
-            <!--MODAL FOOTER-->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--MODAL THREE-->
-<div class="modal fade" id="projModal3" tabindex="-1" role="dialog" aria-labelledby="projModalLabel3">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <!--MODAL HEADER-->
-            <div class="modal-header  text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="projModalLabel3">Postonic mid-vowel alternation in Brazilian Portuguese</h4>
-                <h6>
-                    <small>2013 - 2015</small>
-                </h6>
-            </div>
-            <!--MODAL BODY-->
-            <div class="modal-body">
-                <p>
-                  Brazilian Portuguese has a seven-vowel system in stressed position /a, ɛ, e, i, ɔ, o, u/, which is neutralized in unstressed syllables. In northern dialects, lax-mid [ɛ, ɔ], tense-mid [e, o] and high vowels [i, u] alternate in non-final postonic context. In southern dialects, alternation is only observed between tense-mid [e, o] and high vowels [i, u], as lax-mid vowels are, in general, not licensed outside the stressed syllable. This projected analyzed this alternation in both dialects. I have argued that both lax-mid and high-vowels are fully predictable in non-final postonic context, resulting from height harmony triggered by the vowel in final postonic position.
-                </p>
-                <p>See my master’s dissertation (in Portuguese) <a href="http://www.teses.usp.br/teses/disponiveis/8/8139/tde-16062015-141121/publico/2015_ArthurPereiraSantana_VCorr.pdf">here</a></p>
-                <p><b>Research grant:</b> Conselho Nacional de Desenvolvimento Científico e Tecnológico. Process n. 130194/2013-1</p>
-            </div>
-            <!--MODAL FOOTER-->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--MODAL FOUR-->
-<div class="modal fade" id="projModal4" tabindex="-1" role="dialog" aria-labelledby="projModalLabel4">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <!--MODAL HEADER-->
-            <div class="modal-header  text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="projModalLabel4">Syncope in Brazilian Portuguese</h4>
-                <h6>
-                    <small>2010- 2013</small>
-                </h6>
-            </div>
-            <!--MODAL BODY-->
-            <div class="modal-body">
-                <p>
-                  Syncope in BP can be defined as a variable process that deletes the vowel in non-final postonic syllables (eg. [ˈah.vo.ɾɪ] ~ [ˈah.vɾɪ] ‘tree’). Note that the process has a direct effect on stress position: when syncope occurs, stress shifts from the antepenultimate (marked stress pattern in BP) to the penultimate syllable (standard pattern).<br/>
-                  At first, the sociolinguistic character of the phenomenon was targeted: syncope in Brazilian Portuguese is stigmatized, viewed as a characteristic of speakers with low level of formal education. However, the process only occurs if deleting the vowel results in well-formed syllable (eg. ˈti.pi.ku ~ *tip.ku, *ti.pku) and this is ultimately what determines its occurrence.
-More recently, I have analyzed its phonological character: as syncope has a direct effect on syllable stress, I argue that the it is motivated by the reestablishment of the canonical foot of the language, a syllabic trochee at the right edge of the word.
-                </p>
-            </div>
-            <!--MODAL FOOTER-->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--SCROLL TO TOP-->
-<div id="scroll-top">
-    <div id="scrollup"><i class="fa fa-angle-up"></i></div>
-</div>
-
-<!--==========================================
-                      FOOTER
-===========================================-->
-
-<footer>
-    <div class="container">
-        <!--FOOTER DETAILS-->
-        <p class="text-center">
-            © Material CV. All right reserved by
-            <a href="https://themeforest.net/user/trimatrixlab" target="_blank">
-                <strong>Trimatrixlab</strong>
+              </div>
+            </article>
+          </div>
+          <p class="section-link">
+            <a href="/experience/">Complete professional history <i class="fa fa-angle-right" aria-hidden="true">
+              </i>
             </a>
-            <br />
-            Edited by
-            <a href="http://tiag0santana.github.io/" target="_blank">
-                <strong>Tiago Santana</strong>
+          </p>
+        </div>
+      </section>
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-title">
+            <h2>
+              <i class="title-icon fa fa-folder-open" aria-hidden="true">
+              </i>Featured Projects</h2>
+          </div>
+          <div class="project-grid">
+            <article class="card project-card" data-category="AI Engineering &amp; NLP">
+              <div class="card-content">
+                <p class="project-category">AI Engineering & NLP</p>
+                <h3>
+                  <a href="/projects/multi-llm-collaboration/">Multi-LLM Evaluation &amp; Synthesis Pipeline</a>
+                </h3>
+                <p>Design and prototyping of a task-agnostic pipeline that evaluates and synthesizes outputs from multiple LLMs, with rubric-based assessment and hallucination checks.</p>
+                <p class="status">Partial prototype · Confidential client work</p>
+                <a class="text-link" href="/projects/multi-llm-collaboration/">Read project overview <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+            <article class="card project-card" data-category="AI Evaluation &amp; Quality">
+              <div class="card-content">
+                <p class="project-category">AI Evaluation & Quality</p>
+                <h3>
+                  <a href="/projects/conversational-ai-quality/">Conversational AI Quality & Failure Analysis</a>
+                </h3>
+                <p>Behavioral evaluation of conversational voice agents, combining intent analysis, failure categorization, cross-lingual interpretation, and actionable reporting.</p>
+                <p class="status">Confidential client work · Public overview</p>
+                <a class="text-link" href="/projects/conversational-ai-quality/">Read project overview <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+            <article class="card project-card" data-category="AI Engineering &amp; NLP">
+              <div class="card-content">
+                <p class="project-category">AI Engineering & NLP</p>
+                <h3>
+                  <a href="/projects/competency-mapping/">Rubric Design &amp; Evaluation Systems for Assessment Automation and Hallucination Detection</a>
+                </h3>
+                <p>Design of competency-based assessment rubrics and evaluation methods for hallucination detection, factual grounding, and model reliability in educational content.</p>
+                <p class="status">Confidential client work</p>
+                <a class="text-link" href="/projects/competency-mapping/">Read project overview <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+            <article class="card project-card" data-category="Linguistic Research">
+              <div class="card-content">
+                <p class="project-category">Linguistic Research</p>
+                <h3>
+                  <a href="/projects/brazilian-portuguese/">Brazilian Portuguese Speech & Phonology</a>
+                </h3>
+                <p>Research on vowel neutralization, external sandhi, and syncope in Brazilian Portuguese.</p>
+                <p class="status">Academic research</p>
+                <a class="text-link" href="/projects/brazilian-portuguese/">Read research overview <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+          </div>
+          <p class="section-link">
+            <a href="/projects/">View all projects <i class="fa fa-angle-right" aria-hidden="true">
+              </i>
             </a>
+          </p>
+        </div>
+      </section>
+      <section id="research" class="section">
+        <div class="container">
+          <div class="section-title">
+            <h2>
+              <i class="title-icon fa fa-graduation-cap" aria-hidden="true">
+              </i>Research &amp; Publications</h2>
+          </div>
+          <div class="card">
+            <div class="card-content publication-list">
+              <p>PhD in Linguistics from the University of São Paulo, with research focused on Brazilian Portuguese phonology.</p>
+              <h3 class="list-heading">Selected publications · 2018</h3>
+              <article>
+                <h3>The status of unstressed lax-mid vowels in northern dialect of Brazilian Portuguese</h3>
+                <p>Revista Linguíʃtica</p>
+                <a href="https://revistas.ufrj.br/index.php/rl/article/view/17526">Read publication ↗</a>
+              </article>
+              <article>
+                <h3>The role of phonological processes in defining the vowel inventory of Brazilian Portuguese</h3>
+                <p>Acta Linguistica Academica</p>
+                <a href="https://akademiai.com/doi/pdf/10.1556/2062.2018.65.1.4">Read publication ↗</a>
+              </article>
+            </div>
+          </div>
+          <p class="section-link">
+            <a href="/research/">Complete academic archive <i class="fa fa-angle-right" aria-hidden="true">
+              </i>
+            </a>
+          </p>
+        </div>
+      </section>
+      <div class="container legacy-anchors" aria-label="Academic archive links">
+        <a id="education" href="/research/#background">Academic background</a>
+        <a id="articles" href="/research/#articles">Complete publications</a>
+        <a id="conferences" href="/research/#conferences">Conference presentations</a>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>Arthur Santana, PhD</p>
+        <p class="template-credit">Original Material CV template by <a href="https://themeforest.net/user/trimatrixlab">Trimatrixlab</a> · Original site edited by <a href="http://tiag0santana.github.io/">Tiago Santana</a>
         </p>
-    </div>
-</footer>
-
-<!-- ================== SCRIPTS ================== -->
-<script src="javascript/jquery-2.1.3.min.js"></script>
-<script src="javascript/bootstrap.min.js"></script>
-<script src="javascript/materialize.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR API KEY"></script>
-<script src="javascript/markerwithlabel.min.js"></script>
-<script src="javascript/retina.min.js"></script>
-<script src="javascript/scrollreveal.min.js"></script>
-<script src="javascript/jquery.touchSwipe.min.js"></script>
-<script src="javascript/custom.js"></script>
-
-
-</body>
+      </div>
+    </footer>
+  </body>
 </html>

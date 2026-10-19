@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Multi-LLM Evaluation &amp; Synthesis Pipeline — Arthur Santana</title>
+    <meta name="description" content="Design and prototyping of a task-agnostic pipeline that evaluates and synthesizes outputs from multiple LLMs, with rubric-based assessment and hallucination checks.">
+    <meta name="author" content="Arthur Santana">
+    <link rel="canonical" href="https://arthurpsantana.github.io/projects/multi-llm-collaboration/">
+    <meta property="og:title" content="Multi-LLM Evaluation &amp; Synthesis Pipeline — Arthur Santana">
+    <meta property="og:description" content="Design and prototyping of a task-agnostic pipeline that evaluates and synthesizes outputs from multiple LLMs, with rubric-based assessment and hallucination checks.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://arthurpsantana.github.io/projects/multi-llm-collaboration/">
+    <meta name="theme-color" content="#F7F7F4">
+    <link rel="icon" href="/images/favicons/favicon.ico">
+    <link rel="stylesheet" href="/stylesheets/portfolio.css">
+    <script src="/javascript/portfolio.js" defer>
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <a class="site-brand" href="/">Arthur Santana, PhD<span>Computational Linguist</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" hidden>Menu</button>
+      <nav class="site-navigation" id="site-navigation" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/projects/" aria-current="page">Projects</a>
+        <a href="/experience/">Experience</a>
+        <a href="/research/">Research</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </header>
+    <main id="main-content" tabindex="-1">
+      <section class="page-intro wrap">
+        <p class="eyebrow">AI Engineering & NLP</p>
+        <h1>Multi-LLM Evaluation &amp; Synthesis Pipeline</h1>
+        <p class="lede">Design and prototyping of a task-agnostic pipeline that evaluates and synthesizes outputs from multiple LLMs, with rubric-based assessment and hallucination checks.</p>
+      </section>
+      <div class="wrap case-layout">
+        <aside class="case-aside">
+          <svg class="project-art" viewBox="0 0 320 200" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M40 40h60v34H40zM40 126h60v34H40zM220 83h60v34h-60z"/>
+              <path d="M100 57h45v43h75M100 143h45v-43"/>
+                <circle cx="145" cy="100" r="7"/>
+                </svg>
+                <p class="status">Partial prototype · Confidential client work</p>
+                <a href="/projects/">← All projects</a>
+              </aside>
+              <div class="case-content">
+                <section>
+                  <h2>Overview</h2>
+                  <p>Individual language models can vary in the quality and grounding of their responses. I designed and built a multi-LLM pipeline to explore how evaluation and synthesis can support more reliable generated content.</p>
+                  <p>The work began in an educational-content context, but the approach is task-agnostic. Its goal is to assess candidate responses and consolidate their strongest elements while checking factual grounding.</p>
+                </section>
+                <section>
+                  <h2>My role</h2>
+                  <p><strong>Lead engineer — design, implementation, and evaluation.</strong></p>
+                  <p>My contributions span pipeline design and prototype implementation, prompt engineering, rubric-based evaluation, and hallucination detection.</p>
+                </section>
+                <section>
+                  <h2>Public approach</h2>
+                  <p>The pipeline coordinates outputs from multiple LLMs. An aggregator evaluates candidate responses against predefined rubrics and synthesizes a consolidated output. Hallucination checks support quality assurance.</p>
+                  <p>The current aggregator does not send feedback for additional generation rounds.</p>
+                </section>
+                <section>
+                  <h2>Evaluation focus</h2>
+                  <p>A central research question is whether synthesis can match or improve on the strongest individual model’s response. I approached this through evaluation design and analysis of generated outputs, with attention to factual grounding and consistency.</p>
+                </section>
+                <section>
+                  <h2>Skills applied</h2>
+                  <ul class="link-list">
+                    <li>Applied NLP and LLM orchestration</li>
+                    <li>Prompt engineering and rubric-based assessment</li>
+                    <li>Evaluation design and hallucination detection</li>
+                    <li>Pipeline design and prototype implementation</li>
+                  </ul>
+                </section>
+                <section>
+                  <h2>Project status</h2>
+                  <p>Partial implementation/prototype developed in a client context under NDA.</p>
+                </section>
+              </div>
+            </div>
+          </main>
+          <footer class="site-footer">
+            <div class="footer-contact">
+              <p>Arthur Santana, PhD<span>Language, technology, and research.</span>
+              </p>
+              <a href="mailto:arthurpereirasantana@gmail.com">Email</a>
+              <a href="https://linkedin.com/in/arthursantana/">LinkedIn</a>
+              <a href="/arthuCV.pdf?v=fe2b93e1adfd">Download CV <span class="small">(PDF)</span>
+              </a>
+            </div>
+            <div class="footer-bottom">
+              <span>São Paulo, Brazil</span>
+              <a href="/research/">Academic archive</a>
+            </div>
+          </footer>
+        </body>
+      </html>
